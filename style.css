@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Protest+Strike&display=swap');
+@import url(https://db.onlinewebfonts.com/c/67b1845733e90d9ff7da1643c62c95be?family=ALS+Direct+Bold);
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +11,14 @@ html,
 body {
     height: 100%;
     width: 100%;
-    background-color: #f8f8f8f8;
+}
+
+.container-background1 img {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
 }
 
 .container-nav1 {
@@ -19,17 +29,31 @@ body {
     justify-content: space-around;
 }
 
+
 .container-n1left {
     display: flex;
 }
 
+.container-n1left h1 {
+    font-size: 2.5rem;
+    font-family: "Angkor";
+    font-weight: 400;
+    font-style: normal;
+}
+
 .container-n1center {
     display: flex;
-    gap: 2rem;
+    gap: 2rem; 
+    padding: 1rem 1.5rem;
+    border-radius: 50px;
+    background-color: #00000036;
+    backdrop-filter: blur(2);
 }
 
 .container-n1center a {
     font-size: 1.2rem;
+    font-weight: 600;
+    font-family: "ALS Direct Bold";
     color: #000;
     text-decoration: none;
 }
@@ -39,5 +63,68 @@ body {
 }
 
 .container-n1right span {
-    font-size: 1.2re    m;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    background-color: #0946E1;
+    color: #fff;
+    border-radius: 50px;
+    font-family: "ALS Direct Bold";
+    font-weight: 500;
 }
+
+.container-page1 {
+    height: 91vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.container-p1left {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container-p1left h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: "Angkor";
+    font-style: normal;
+}
+
+.container-p1left p {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "ALS Direct Bold";
+}
+
+.container-p1right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-p1right img {
+    height: 30rem;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
