@@ -8,45 +8,36 @@ html,
 body {
     height: 100%;
     width: 100%;
-    background-color: #080808;
+    background-color: #f8f8f8f8;
 }
 
-.container-nav {
-    height: 5rem;
-    width: 100%;
-    padding: 0 1.5rem;
+.container-nav1 {
+    height: 9vh;
+    width: 100%;    
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .container-n1left {
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.container-n1left a{
-    font-size: 2rem;
-    font-weight: 900;
-    font-family: 'Franklin Gothic Medium';
-    color: #0946E1;
-    text-decoration: none;
 }
 
 .container-n1center {
     display: flex;
-    gap: 1.5rem;
-    padding: 0.9rem 2rem;
-    background-color: rgba(255, 255, 255, 255.100);
-    border-radius: 1.5rem;
-    align-items: center;
-    justify-content: center;
+    gap: 2rem;
 }
 
 .container-n1center a {
-    font-size: 1.3rem;
-    font-weight: 500;
-    text-decoration: none;
+    font-size: 1.2rem;
     color: #000;
+    text-decoration: none;
+}
+
+.container-n1right {
+    display: flex;
+}
+
+.container-n1right span {
+    font-size: 1.2re    m;
 }
